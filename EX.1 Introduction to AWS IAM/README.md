@@ -64,7 +64,9 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Gained practical experience implementing role-based access control.  
 - Verified permission enforcement through real-time service testing.  
 
+
 ## OUTPUT:
+
 
 <img width="1919" height="1021" alt="Screenshot 2026-02-06 083521" src="https://github.com/user-attachments/assets/ecf7e2de-fe12-440c-8807-5f014e4bd85d" />
 
