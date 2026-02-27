@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: SARAVANA KUMAR S
+* **Register Number**: 212224220090
+* **Date of Submission**: 27-02-2026
 
 ---
 
@@ -80,11 +80,17 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Create a New EBS Volume task provisions a 1 GiB Amazon Elastic Block Store (gp2) volume in the same Availability Zone as the existing Amazon EC2 instance and tags it for structured resource identification before attachment.
+
+2. Attach the Volume to an Instance task attaches the newly created Amazon Elastic Block Store volume to the Lab Amazon EC2 instance using the specified device name, transitioning the volume state from Available to In-use.
+
+3. Connect to Your Amazon EC2 Instance task establishes a browser-based terminal session to the Lab Amazon EC2 instance using EC2 Instance Connect for secure, direct command-line access.
+   
+4. Create and Configure Your File System task formats the attached Amazon Elastic Block Store volume with an ext3 file system, mounts it to /mnt/data-store, updates /etc/fstab for persistent mounting, and validates storage integration on the Amazon EC2 Linux instance. 
+
+5. This step verifies snapshot lifecycle progression from Pending to Completed in Amazon Elastic Block Store, then removes and confirms deletion of the test file from the mounted volume on the Amazon EC2 instance to simulate data change after backup creation.
+
+6. Restore the Amazon EBS Snapshot task restores a snapshot to a new Amazon Elastic Block Store volume, attaches it to the Lab Amazon EC2 instance, mounts it, and verifies successful data recovery from the previously backed-up file.
 
 ---
 
@@ -92,19 +98,19 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1919" height="1088" alt="Screenshot 2026-02-27 083207" src="https://github.com/user-attachments/assets/97845a60-1fb3-4250-9e9d-275726b1c491" />
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1919" height="1140" alt="Screenshot 2026-02-27 083418" src="https://github.com/user-attachments/assets/a35c9616-8bcc-4ba9-97df-286d68fc2b42" />
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1919" height="1141" alt="Screenshot 2026-02-27 084404" src="https://github.com/user-attachments/assets/27be4305-128b-4672-ab6d-152d4c910955" />
 
 ---
 
